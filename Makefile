@@ -15,5 +15,5 @@ Pompe.o: Pompe.cpp Pompe.hpp
 main.o: main.cpp
 	$(CC) -c $@ $^
 
-clear:
+clean:
 	rm -r *.o
